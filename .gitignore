@@ -1,1 +1,21 @@
 *.pdf
+*.png
+*.jpg
+*.txt
+/isolated*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Tooling
+.ruff_cache/
+
+# Training outputs / weights
+runs/
+*.pt
+*.onnx
